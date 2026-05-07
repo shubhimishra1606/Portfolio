@@ -67,10 +67,10 @@ const Contact = () => {
               <a href={`https://github.com/${githubUser}`} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiGithub size={28} />
               </a>
-              <a href={`https://linkedin.com/in/${leetcodeUser}`} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href={linkedinURL} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiLinkedin size={28} />
               </a>
-              <a href={linkedinURL} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-[#FFA116] transition-colors">
+              <a href={`https://leetcode.com/u/${leetcodeUser}/`} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-[#FFA116] transition-colors">
                 <SiLeetcode size={28} />
               </a>
             </div>
