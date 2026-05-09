@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiArrowRight } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
+import Profile from "../assets/profile.jpg"
 
 const githubUser = import.meta.env.VITE_GITHUB_USERNAME;
 const leetcodeUser = import.meta.env.VITE_LEETCODE_USERNAME;
@@ -74,7 +75,7 @@ const Hero = () => {
 
             <div className="relative w-65 h-65 md:w-87.5 md:h-87.5 rounded-full overflow-hidden border-4 border-[#112240] z-10">
               <img 
-                src="src/assets/profile.jpg"
+                src={Profile}
                 alt="Shubhi Mishra"
                 className="w-full h-full object-cover"
               />

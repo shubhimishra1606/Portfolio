@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import KrishiRakshak from "../assets/krishirakshak.png";
+import CodexAI from "../assets/codexai.png"; 
 
 const projects = [
   {
@@ -9,7 +11,7 @@ const projects = [
     tech: ["MERN Stack", "Machine Learning"],
     github: "#",
     // link: "#",
-    image: "src/assets/krishirakshak.png", 
+    image: KrishiRakshak, 
   },
   {
     title: "2. CodexAI",
@@ -17,8 +19,7 @@ const projects = [
     tech: ["MERN Stack", "Gemini API"],
     github: "https://github.com/shubhimishra1606/CodexAI",
     // link: "#",
-    image: "src/assets/codexai.png",
-    tag: "iDEA 2026"
+    image: CodexAI,
   }
 ];
 

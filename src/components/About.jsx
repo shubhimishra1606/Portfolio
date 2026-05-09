@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from "../assets/image.png"
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
@@ -60,7 +61,7 @@ const About = () => {
             className="relative group rounded-4xl overflow-hidden border border-white/10"
           >
             <img 
-              src="src/assets/image.png"
+              src={Image}
               alt="Workspace"
               className="w-full h-auto object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
             />
